@@ -26,3 +26,10 @@ lenfirstName = len(firstName)
 lenlastName = len(lastName)
 print(f"{firstName} has {lenfirstName} letters")
 print(f"{lastName} has {lenlastName} letters")
+
+if lenfirstName > lenlastName:
+    print(f"{firstName} is longer")
+elif lenlastName > lenfirstName:
+    print(f"{lastName} is longer")
+else:
+    print("They're the same length")
