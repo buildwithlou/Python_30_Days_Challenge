@@ -55,3 +55,19 @@ exp = num_one**num_two
 print(f"Exponent: {exp}")
 floor_division = num_one // num_two
 print(f"Floor Division: {floor_division}")
+
+# Calculating the radius
+print(50 * "-")
+radiusCircle = 30
+pi = 3.1415
+areaCircle = pi * (radiusCircle**2)
+print(f"The area of a Circle is {areaCircle}")
+circumferenceCircle = 2 * pi * radiusCircle
+print(f"The circumference of a Circle is {circumferenceCircle}")
+print(50 * "-")
+print("CALCULATE YOUR OWN CIRCLE")
+newCircle = int(input("What is the radius of your Circle "))
+areanewCircle = pi * (newCircle**2)
+print(f"The area of a Circle is {areanewCircle}")
+circumferencenewCircle = 2 * pi * newCircle
+print(f"The circumference of a Circle is {circumferencenewCircle}")
