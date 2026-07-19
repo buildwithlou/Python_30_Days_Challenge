@@ -16,3 +16,12 @@ sideB = int(input("Enter side b: "))
 sideC = int(input("Enter side c: "))
 perimeterTriangle = sideA + sideB + sideC
 print(f"The perimeter of the triangle is {perimeterTriangle}")
+
+# Getting length and width of a rectangle
+print("#" * 50)
+length = int(input("Enter length: "))
+width = int(input("Enter width: "))
+area = length * width
+perimeter = 2 * (length + width)
+print(f"The area of the rectangle is: {area}")
+print(f"The perimeter of the rectangle is: {perimeter}")
