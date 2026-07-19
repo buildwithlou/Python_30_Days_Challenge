@@ -17,7 +17,7 @@ sideC = int(input("Enter side c: "))
 perimeterTriangle = sideA + sideB + sideC
 print(f"The perimeter of the triangle is {perimeterTriangle}")
 
-# Getting length and width of a rectangle
+# Getting length and width of a rectangle to calculate the area and perimeter
 print("#" * 50)
 length = int(input("Enter length: "))
 width = int(input("Enter width: "))
@@ -25,3 +25,12 @@ area = length * width
 perimeter = 2 * (length + width)
 print(f"The area of the rectangle is: {area}")
 print(f"The perimeter of the rectangle is: {perimeter}")
+
+# Getting radius of a circle to calculate the area and circumference
+print("#" * 50)
+pi = 3.14
+radius = int(input("Enter the radius: "))
+areaCircle = pi * radius * radius
+circumference = 2 * pi * radius
+print(f"The area of the circle is: {areaCircle}")
+print(f"The circumference of the circle is: {circumference}")
