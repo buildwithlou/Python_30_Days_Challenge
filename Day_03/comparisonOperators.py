@@ -26,7 +26,7 @@ perimeter = 2 * (length + width)
 print(f"The area of the rectangle is: {area}")
 print(f"The perimeter of the rectangle is: {perimeter}")
 
-# Getting radius of a circle to calculate the area and circumference
+# Getting radius of a circle to calculate the area and circumference of the new circle
 print("#" * 50)
 pi = 3.14
 radius = int(input("Enter the radius: "))
