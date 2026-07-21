@@ -26,10 +26,20 @@ perimeter = 2 * (length + width)
 print(f"The area of the rectangle is: {area}")
 print(f"The perimeter of the rectangle is: {perimeter}")
 
-# Getting radius of a circle to calculate the area and circumference of the new circle
+# Getting radius of a circle to calculate the area and circumference
 print("#" * 50)
 pi = 3.14
 radius = int(input("Enter the radius: "))
 areaCircle = pi * radius * radius
 circumference = 2 * pi * radius
 print(f"The area of the circle is: {areaCircle}")
+print(f"The circumference of the circle is: {circumference}")
+
+# Calculating the slope
+m = 2
+b = -2
+x_intercept = -b / m
+y_intercept = b
+print(f"Slope (m): {m}")
+print(f"Y-intercept: (0, {y_intercept})")
+print(f"X-intercept: (0, {x_intercept})")
