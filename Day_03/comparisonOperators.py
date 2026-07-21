@@ -33,4 +33,3 @@ radius = int(input("Enter the radius: "))
 areaCircle = pi * radius * radius
 circumference = 2 * pi * radius
 print(f"The area of the circle is: {areaCircle}")
-print(f"The circumference of the circle is: {circumference}")
