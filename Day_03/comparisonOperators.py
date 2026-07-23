@@ -140,3 +140,7 @@ print("#" * 50)
 # numValue = numStr == num
 # print(f"Checking if both values are the same: {numValue}")
 print("Checking if both values are the same: ", type("10") is type(10))
+
+# Checking variables
+print("#" * 50)
+print("Checking if the variables are equal: ", int(9.8) == 10)
