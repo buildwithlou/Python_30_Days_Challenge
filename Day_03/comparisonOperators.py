@@ -106,3 +106,7 @@ print("on" in p and "on" in d)
 # Finding the word in the sentence
 print("#" * 50)
 print("jargon" in "I hope this course is not full of jargon.")
+
+# Finding the word in past variables
+print("#" * 50)
+print("on" not in p and "on" not in d)
