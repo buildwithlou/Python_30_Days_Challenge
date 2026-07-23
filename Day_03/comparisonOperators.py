@@ -144,3 +144,10 @@ print("Checking if both values are the same: ", type("10") is type(10))
 # Checking variables
 print("#" * 50)
 print("Checking if the variables are equal: ", int(9.8) == 10)
+
+# Calculating the paymentd per person
+print("#" * 50)
+hours = int(input("Enter hours: "))
+rate = int(input("Rate per hour: "))
+earning = hours * rate
+print(f"Your weekly earning is {earning}")
