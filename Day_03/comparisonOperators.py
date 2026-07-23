@@ -85,3 +85,11 @@ for x in range(-10, 11):
     # Checking if y is 0
     if y == 0:
         print(f"y is 0 when x = {x}")
+
+# Finding the length of 'Python' and 'Dragon'
+p = "Python"
+d = "Dragon"
+print("Length of Python: ", len(p))
+print("Length of Dragon: ", len(d))
+Different = len(p) != len(d)
+print(Different)
