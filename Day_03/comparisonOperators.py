@@ -125,3 +125,10 @@ result = str(float(len("python")))
 print(
     f"Converting the value of the length of the word to float then to string: {type(result)}"
 )
+
+# Floor division exercise
+print("#" * 50)
+floorDiv = 7 // 3
+intVal = int(2.7)
+value = floorDiv == intVal
+print(f"Comparing the value: {value}")
