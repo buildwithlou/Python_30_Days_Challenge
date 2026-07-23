@@ -110,3 +110,13 @@ print("jargon" in "I hope this course is not full of jargon.")
 # Finding the word in past variables
 print("#" * 50)
 print("on" not in p and "on" not in d)
+
+# Finding the length of the text
+word = "Python"
+wordInt = len(word)
+wordFloat = float(wordInt)
+wordStr = str(wordFloat)
+print(wordInt)
+print(wordFloat)
+print(wordStr)
+print(type(wordStr))
