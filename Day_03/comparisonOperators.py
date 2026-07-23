@@ -38,6 +38,7 @@ print(f"The area of the circle is: {areaCircle}")
 print(f"The circumference of the circle is: {circumference}")
 
 # Calculating the slope
+print("#" * 50)
 m = 2
 b = -2
 x_intercept = -b / m
@@ -47,6 +48,7 @@ print(f"Y-intercept: (0, {y_intercept})")
 print(f"X-intercept: (0, {x_intercept})")
 
 # Calculating the slope ( m = y2 - y1 / x2 - x1) and the Euclidean distance
+print("#" * 50)
 x1, x2 = 2, 2
 y1, y2 = 6, 10
 
@@ -63,6 +65,7 @@ d = math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
 print(f"The Euclidean distance between point(2,2) and point (6,10) is {d}")
 
 # Comparing the slopes in tasks 8 and 9
+print("#" * 50)
 if m is None and mm is None:
     print("Both slopes are undefined (both are vertical lines).")
 elif m is None:
@@ -78,6 +81,7 @@ else:
 
 # Calculate the value of y
 # Formula => y = x^2 + 6x +9
+print("#" * 50)
 for x in range(-10, 11):
     # Calculating y using the equation
     y = (x**2) + (6 * x) + 9
@@ -87,9 +91,14 @@ for x in range(-10, 11):
         print(f"y is 0 when x = {x}")
 
 # Finding the length of 'Python' and 'Dragon'
+print("#" * 50)
 p = "Python"
 d = "Dragon"
 print("Length of Python: ", len(p))
 print("Length of Dragon: ", len(d))
 Different = len(p) != len(d)
 print(Different)
+
+# Using the "and" operator
+print("#" * 50)
+print("on" in p and "on" in d)
