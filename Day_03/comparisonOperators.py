@@ -1,3 +1,5 @@
+import math
+
 # Variables
 age = 25
 height = 5.01
@@ -43,3 +45,19 @@ y_intercept = b
 print(f"Slope (m): {m}")
 print(f"Y-intercept: (0, {y_intercept})")
 print(f"X-intercept: (0, {x_intercept})")
+
+# Calculating the slope ( m = y2 - y1 / x2 - x1) and the Euclidean distance
+x1, x2 = 2, 2
+y1, y2 = 6, 10
+
+if x2 == x1:
+    m = None
+    print("The line is vertical, so the slope is undefined")
+elif y1 == y2:
+    m = None
+    print("The line is vertical, so the slope is undefined")
+else:
+    m = (y2 - y1) / (x2 - x1)
+    print(f"The slope for point(2,2) and point(6,10) is {m}")
+d = math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
+print(f"The Euclidean distance between point(2,2) and point (6,10) is {d}")
