@@ -132,3 +132,10 @@ floorDiv = 7 // 3
 intVal = int(2.7)
 value = floorDiv == intVal
 print(f"Comparing the value: {value}")
+
+# Checking types
+print("#" * 50)
+numStr = "10"
+num = 10
+numValue = numStr == num
+print(f"Checking if both values are the same: {numValue}")
