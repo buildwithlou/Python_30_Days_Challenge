@@ -135,7 +135,8 @@ print(f"Comparing the value: {value}")
 
 # Checking types
 print("#" * 50)
-numStr = "10"
-num = 10
-numValue = numStr == num
-print(f"Checking if both values are the same: {numValue}")
+# numStr = type("10")
+# num = type(10)
+# numValue = numStr == num
+# print(f"Checking if both values are the same: {numValue}")
+print("Checking if both values are the same: ", type("10") is type(10))
