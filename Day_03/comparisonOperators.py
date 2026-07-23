@@ -151,3 +151,9 @@ hours = int(input("Enter hours: "))
 rate = int(input("Rate per hour: "))
 earning = hours * rate
 print(f"Your weekly earning is {earning}")
+
+# Calculating the number of second a person can live
+print("#" * 50)
+years = int(input("Enter number of years you have lived: "))
+secondsPerYear = 365 * 24 * 60 * 60
+print("You have lived for ", secondsPerYear * years, " seconds.")
