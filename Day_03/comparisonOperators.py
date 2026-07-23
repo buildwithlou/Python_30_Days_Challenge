@@ -51,13 +51,27 @@ x1, x2 = 2, 2
 y1, y2 = 6, 10
 
 if x2 == x1:
-    m = None
+    mm = None
     print("The line is vertical, so the slope is undefined")
 elif y1 == y2:
-    m = None
+    mm = None
     print("The line is vertical, so the slope is undefined")
 else:
-    m = (y2 - y1) / (x2 - x1)
-    print(f"The slope for point(2,2) and point(6,10) is {m}")
+    mm = (y2 - y1) / (x2 - x1)
+    print(f"The slope for point(2,2) and point(6,10) is {mm}")
 d = math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2)
 print(f"The Euclidean distance between point(2,2) and point (6,10) is {d}")
+
+# Comparing the slopes in tasks 8 and 9
+if m is None and mm is None:
+    print("Both slopes are undefined (both are vertical lines).")
+elif m is None:
+    print("The first slope (m) is undefined, so it cannot be compared numerically.")
+elif mm is None:
+    print("The second slope (mm) is undefined, so it cannot be compared numerically.")
+elif m > mm:
+    print(f"{m} is the biggest number")
+elif mm > m:
+    print(f"{mm} is the biggest number")
+else:
+    print("They've the same value")
