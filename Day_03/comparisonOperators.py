@@ -75,3 +75,13 @@ elif mm > m:
     print(f"{mm} is the biggest number")
 else:
     print("They've the same value")
+
+# Calculate the value of y
+# Formula => y = x^2 + 6x +9
+for x in range(-10, 11):
+    # Calculating y using the equation
+    y = (x**2) + (6 * x) + 9
+    print(f"When x = {x:3d}, y = {y}")
+    # Checking if y is 0
+    if y == 0:
+        print(f"y is 0 when x = {x}")
