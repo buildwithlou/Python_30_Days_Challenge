@@ -6,6 +6,10 @@ sentence = " ".join(words)
 new_sentence = " ".join(new_words)
 company = " ".join(new_words)
 big_companies = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+PFE = "Python For Everyone"
+CFA = "Coding For All"
+CFAP = "Coding For All People"
+conjunction = "You cannot end a sentence with because because because is a conjunction"
 print(sentence)
 print(new_sentence)
 print(company)
@@ -24,3 +28,7 @@ print(big_companies.split(", "))
 print(company[0])
 print(company[-1])
 print(company[10])
+print(CFA.index("C"))
+print(CFA.index("F"))
+print(CFAP.rfind("l"))
+print(conjunction.index("because"))
