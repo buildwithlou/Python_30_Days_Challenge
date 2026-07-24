@@ -1,3 +1,4 @@
+# Exercises - Day 03
 import math
 
 # Variables

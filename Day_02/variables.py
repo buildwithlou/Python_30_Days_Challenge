@@ -1,3 +1,4 @@
+# Exercises - Day 02
 # Exercises - Level 1
 firstName = "Lourdes"
 lastName = "Pampa"
