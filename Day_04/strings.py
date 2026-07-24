@@ -6,3 +6,5 @@ print(sentence)
 new_words = ["Coding", "For", "All"]
 new_sentence = " ".join(new_words)
 print(new_sentence)
+company = " ".join(new_words)
+print(company)
