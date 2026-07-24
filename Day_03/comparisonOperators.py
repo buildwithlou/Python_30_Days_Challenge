@@ -157,3 +157,7 @@ print("#" * 50)
 years = int(input("Enter number of years you have lived: "))
 secondsPerYear = 365 * 24 * 60 * 60
 print("You have lived for ", secondsPerYear * years, " seconds.")
+
+# Displays a table of numbers
+for i in range(1, 6):
+    print(f"{i} 1 {i} {i**2} {i**3}")
