@@ -1,4 +1,4 @@
-# Comparison Operators
+# Comparison Operators - Day 03
 # == Equal
 # != not Equal
 # > Greater than
