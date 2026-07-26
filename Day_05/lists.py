@@ -12,3 +12,6 @@ print(
     web_techs[len(web_techs) // 2],
     web_techs[-2],
 )
+# New list with mix data types
+mixed_data_types = ["Lourdes", 25, 5.01, "Married", "Miami Lakes, FL"]
+print(mixed_data_types)
