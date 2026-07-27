@@ -58,3 +58,5 @@ if len(it_companies) % 2 != 0:
 else:
     del it_companies[middle22 - 1 : middle22 + 1]
 print(it_companies)
+it_companies.pop()
+print(it_companies)
