@@ -63,3 +63,6 @@ print(it_companies)
 # Removing all the IT companies from the list
 it_companies.clear()
 print(it_companies)
+# Destroy (Deleting) the IT companies list
+del it_companies
+# print(it_companies) #Showing error because there is none list with that name
