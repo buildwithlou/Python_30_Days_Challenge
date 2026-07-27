@@ -69,3 +69,5 @@ del it_companies
 # Creating two new lists
 front_end = ["HTML", "CSS", "JS", "React", "Redux"]
 back_end = ["Node", "Express", "MongoDB"]
+full_stack = front_end + back_end
+print("Full Stack: ", full_stack)
