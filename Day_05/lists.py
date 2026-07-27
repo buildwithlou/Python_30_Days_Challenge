@@ -50,3 +50,5 @@ if len(it_companies) % 2 != 0:
 else:
     middle_companies = it_companies[middle - 1 : middle + 1]
 print(middle_companies)
+it_companies.pop(0)
+print(it_companies)
