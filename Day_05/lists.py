@@ -60,3 +60,6 @@ else:
 print(it_companies)
 it_companies.pop()
 print(it_companies)
+# Removing all the IT companies from the list
+it_companies.clear()
+print(it_companies)
