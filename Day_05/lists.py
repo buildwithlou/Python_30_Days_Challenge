@@ -71,3 +71,12 @@ front_end = ["HTML", "CSS", "JS", "React", "Redux"]
 back_end = ["Node", "Express", "MongoDB"]
 full_stack = front_end + back_end
 print("Full Stack: ", full_stack)
+# Creating a list of 10 students ages
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+# Finding the min and max age
+# First I am sort the list and is going to be easier
+ages.sort()
+min_age = ages[0]
+max_age = ages[-1]
+print("Minimum age: ", min_age)
+print("Maximum age: ", max_age)
