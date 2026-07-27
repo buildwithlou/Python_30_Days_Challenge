@@ -44,3 +44,9 @@ first_three = it_companies[:3]
 print(first_three)
 last_three = it_companies[-3:]
 print(last_three)
+middle = len(it_companies) // 2
+if len(it_companies) % 2 != 0:
+    middle_companies = it_companies[middle : middle + 1]
+else:
+    middle_companies = it_companies[middle - 1 : middle + 1]
+print(middle_companies)
