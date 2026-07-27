@@ -42,3 +42,5 @@ it_companies.reverse()
 print(it_companies)
 first_three = it_companies[:3]
 print(first_three)
+last_three = it_companies[-3:]
+print(last_three)
