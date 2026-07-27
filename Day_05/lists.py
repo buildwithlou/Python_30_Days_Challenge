@@ -80,3 +80,15 @@ min_age = ages[0]
 max_age = ages[-1]
 print("Minimum age: ", min_age)
 print("Maximum age: ", max_age)
+# Adding the new variables in the list (min_age, max_age)
+ages.extend([min_age, max_age])
+print(ages)
+# Finding the median age
+ages.sort()
+n = len(ages)
+med = n // 2
+if n % 2 != 0:
+    median_age = ages[med]
+else:
+    median_age = (ages[med - 1] + ages[med]) / 2
+print("Median age: ", median_age)
