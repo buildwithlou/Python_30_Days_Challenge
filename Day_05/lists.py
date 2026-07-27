@@ -66,3 +66,6 @@ print(it_companies)
 # Destroy (Deleting) the IT companies list
 del it_companies
 # print(it_companies) #Showing error because there is none list with that name
+# Creating two new lists
+front_end = ["HTML", "CSS", "JS", "React", "Redux"]
+back_end = ["Node", "Express", "MongoDB"]
