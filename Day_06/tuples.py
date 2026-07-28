@@ -6,3 +6,5 @@ Brothers = ("Max", "Ricardo", "Felipe", "Jhojan", "Luis")
 Sisters = ("Nina", "Griselle", "Soledad")
 Siblings = Brothers + Sisters
 print("Siblings: ", Siblings)
+# Length of Siblings
+print("Lourdes have ", len(Siblings), " Siblings.")
