@@ -12,3 +12,7 @@ print("Lourdes have ", len(Siblings), " Siblings.")
 Parents = ("Isabel", "Maximo")
 Family = Siblings + Parents
 print("Family: ", Family)
+# Unpacking siblings and parents
+*siblings, mother, father = Family
+print("Siblings: ", siblings)
+print("Parents: ", mother, father)
