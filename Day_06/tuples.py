@@ -2,4 +2,7 @@
 # Creating an empty tuple
 tuple_example = tuple()
 # Creating a tuple with my family names
-siblings = ("Max", "Ricardo", "Nina", "Felipe", "Griselle", "Soledad", "Jhojan", "Luis")
+Brothers = ("Max", "Ricardo", "Felipe", "Jhojan", "Luis")
+Sisters = ("Nina", "Griselle", "Soledad")
+Siblings = Brothers + Sisters
+print("Siblings: ", Siblings)
