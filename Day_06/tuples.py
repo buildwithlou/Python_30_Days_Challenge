@@ -16,3 +16,8 @@ print("Family: ", Family)
 *siblings, mother, father = Family
 print("Siblings: ", siblings)
 print("Parents: ", mother, father)
+# Creating new tuples
+fruits = ("mango", "strawberry", "banana", "pineapple")
+vegetables = ("carrots", "avocados", "celery")
+animal_products = ("treats", "leash")
+food_stuff_tp = fruits + vegetables + animal_products
