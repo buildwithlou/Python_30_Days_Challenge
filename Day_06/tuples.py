@@ -23,3 +23,9 @@ animal_products = ("treats", "leash")
 food_stuff_tp = fruits + vegetables + animal_products
 food_stuff_lt = list(food_stuff_tp)
 print(type(food_stuff_lt))
+middle = len(food_stuff_lt) // 2
+if len(food_stuff_lt) % 2 != 0:
+    middle_food_stuff = food_stuff_lt[middle : middle + 1]
+else:
+    middle_food_stuff = food_stuff_lt[middle - 1 : middle + 1]
+print(middle_food_stuff)
