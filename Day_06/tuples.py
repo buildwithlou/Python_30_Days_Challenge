@@ -39,3 +39,4 @@ del food_stuff_tp
 # print(food_stuff_tp) #Giving us an error
 nordic_countries = ("Denmark", "Finland", "Iceland", "Norway", "Sweden")
 print("Is Estonia in the Tuple?", "Estonia" in nordic_countries)
+print("Is Iceland in the Tuple?", "Iceland" in nordic_countries)
