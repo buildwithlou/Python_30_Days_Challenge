@@ -33,3 +33,5 @@ first_three_items = food_stuff_lt[0:3]
 last_three_items = food_stuff_lt[-3:]
 print(first_three_items)
 print(last_three_items)
+# Deleting the food_struff_tp completely
+del food_stuff_tp
