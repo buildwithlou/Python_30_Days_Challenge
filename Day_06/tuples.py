@@ -35,3 +35,5 @@ print(first_three_items)
 print(last_three_items)
 # Deleting the food_struff_tp completely
 del food_stuff_tp
+# checking if exists
+# print(food_stuff_tp) #Giving us an error
