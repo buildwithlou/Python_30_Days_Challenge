@@ -29,3 +29,7 @@ if len(food_stuff_lt) % 2 != 0:
 else:
     middle_food_stuff = food_stuff_lt[middle - 1 : middle + 1]
 print(middle_food_stuff)
+first_three_items = food_stuff_lt[0:3]
+last_three_items = food_stuff_lt[-3:]
+print(first_three_items)
+print(last_three_items)
