@@ -21,3 +21,5 @@ fruits = ("mango", "strawberry", "banana", "pineapple")
 vegetables = ("carrots", "avocados", "celery")
 animal_products = ("treats", "leash")
 food_stuff_tp = fruits + vegetables + animal_products
+food_stuff_lt = list(food_stuff_tp)
+print(type(food_stuff_lt))
