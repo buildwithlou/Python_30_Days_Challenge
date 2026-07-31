@@ -15,3 +15,7 @@ print(it_companies)
 # Removing an item
 it_companies.remove("Intel")
 print(it_companies)
+#  The difference between remove and discard in Python sets is that remove raises an error if
+#  the item is not found in the set, while discard does not raise an error and simply does nothing
+#  if the item is not present. Use remove when you want to ensure the item exists before removing it,
+#  and discard when you don't care if the item is absent.
