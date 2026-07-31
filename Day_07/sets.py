@@ -6,3 +6,6 @@ B = {19, 22, 20, 25, 26, 24, 28, 27}
 age = [22, 19, 24, 25, 26, 24, 25, 24]
 # Finding the length of the it_companies
 print("The length of the it_companies set is: ", len(it_companies))
+# Adding a value into the sets
+it_companies.add("Twitter")
+print(it_companies)
