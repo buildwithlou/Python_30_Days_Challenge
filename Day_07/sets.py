@@ -19,3 +19,7 @@ print(it_companies)
 #  the item is not found in the set, while discard does not raise an error and simply does nothing
 #  if the item is not present. Use remove when you want to ensure the item exists before removing it,
 #  and discard when you don't care if the item is absent.
+set_a = {"red", "blue", "yellow"}
+set_b = {"purple", "green", "orange"}
+sets_ab = set_a.union(set_b)
+print("Union: ", sets_ab)
