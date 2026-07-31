@@ -38,3 +38,6 @@ join_ab = set_a.union(set_b)
 join_ba = set_b.union(set_a)
 print("Join A with B: ", join_ab)
 print("Join B with A: ", join_ba)
+# Symmetric difference
+sym_diff = set_a.symmetric_difference(set_b)
+print("Symmetric difference between sets: ", sym_diff)
