@@ -41,3 +41,6 @@ print("Join B with A: ", join_ba)
 # Symmetric difference
 sym_diff = set_a.symmetric_difference(set_b)
 print("Symmetric difference between sets: ", sym_diff)
+# Deleting both sets
+del set_a
+del set_b
