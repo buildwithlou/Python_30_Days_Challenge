@@ -27,3 +27,6 @@ print("Union: ", sets_ab)
 # Find intersections
 intersect_ab = set_a.intersection(set_b)
 print("Intersection: ", intersect_ab)
+# Subset of the sets
+subset_ab = set_a.issubset(set_b)
+print("Subset: ", subset_ab)
