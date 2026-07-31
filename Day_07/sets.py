@@ -33,3 +33,8 @@ print("Subset: ", subset_ab)
 # Disjoint sets
 disjoint_ab = set_a.isdisjoint(set_b)
 print("Is disjoint: ", disjoint_ab)
+# Joining sets (is going to be identical set values)
+join_ab = set_a.union(set_b)
+join_ba = set_b.union(set_a)
+print("Join A with B: ", join_ab)
+print("Join B with A: ", join_ba)
