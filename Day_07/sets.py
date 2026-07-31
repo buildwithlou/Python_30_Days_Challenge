@@ -44,3 +44,12 @@ print("Symmetric difference between sets: ", sym_diff)
 # Deleting both sets
 del set_a
 del set_b
+# Converting this list to a set
+age = [22, 19, 24, 25, 26, 24, 25, 24]
+age_st = set(age)
+print("Length of the list: ", len(age))
+print("Length of the set: ", len(age_st))
+if len(age) > len(age_st):
+    print("The bigger is the list")
+else:
+    print("The bigger is the set")
