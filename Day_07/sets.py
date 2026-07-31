@@ -30,3 +30,6 @@ print("Intersection: ", intersect_ab)
 # Subset of the sets
 subset_ab = set_a.issubset(set_b)
 print("Subset: ", subset_ab)
+# Disjoint sets
+disjoint_ab = set_a.isdisjoint(set_b)
+print("Is disjoint: ", disjoint_ab)
