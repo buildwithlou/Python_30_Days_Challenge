@@ -12,3 +12,6 @@ print(it_companies)
 # Adding multiple values into the set
 it_companies.update(["Cisco", "Intel", "Dropbox"])
 print(it_companies)
+# Removing an item
+it_companies.remove("Intel")
+print(it_companies)
