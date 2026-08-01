@@ -53,3 +53,11 @@ if len(age) > len(age_st):
     print("The bigger is the list")
 else:
     print("The bigger is the set")
+# STRING ("string")
+###Representing text or sequence of characters
+# LIST ["list", "list","list"]
+###General-purpose collections that need frequent updating
+# TUPLE ("tuple","tuple","tuple")
+###Fixed collections that shouldn't be modified
+# SET {"set","set","set"}
+###Eliminating duplicates and fast membership testing
