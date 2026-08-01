@@ -61,3 +61,13 @@ else:
 ###Fixed collections that shouldn't be modified
 # SET {"set","set","set"}
 ###Eliminating duplicates and fast membership testing
+sentence = "I am a teacher and I love to inspire and teach people"
+
+cleaned_sentence = sentence.replace(".", "").lower()
+words_list = cleaned_sentence.split()
+unique_words = set(words_list)
+unique_word_count = len(unique_words)
+
+print("List of words:", words_list)
+print("Unique words set:", unique_words)
+print("Number of unique words:", unique_word_count)
