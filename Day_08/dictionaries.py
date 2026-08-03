@@ -19,3 +19,5 @@ student = {
     "city": "Miami Lakes",
     "address": "15525 Miami Lakeway N",
 }
+# Getting the length of the last dictionary
+print("Length of Student Dictionary: ", len(student))
