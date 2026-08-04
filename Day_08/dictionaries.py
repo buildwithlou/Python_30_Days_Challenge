@@ -40,3 +40,9 @@ print("Changing the dictionary to a list of tuples: ", list(student.items()))
 # Deleting one if the items in the dictionary
 student.pop("age")
 print("Student: ", student)
+# Deleting one of the dictionaries
+del student
+try:
+    print(student)
+except NameError as e:
+    print("\nVerification:", e)
