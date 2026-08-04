@@ -31,4 +31,7 @@ student["skills"].append("Attention to Detail")
 print("Skills: ", student["skills"])
 # Getting the dictionary keys as a list
 keys_list = list(student.keys())
-print("Keys Lisy: ", keys_list)
+print("Keys List: ", keys_list)
+# Getting the dictionary values as a list
+values_list = list(student.values())
+print("Keys Values: ", values_list)
