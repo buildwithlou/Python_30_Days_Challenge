@@ -37,3 +37,6 @@ values_list = list(student.values())
 print("Keys Values: ", values_list)
 # Changing the dictionary to a list of tuples
 print("Changing the dictionary to a list of tuples: ", list(student.items()))
+# Deleting one if the items in the dictionary
+student.pop("age")
+print("Student: ", student)
