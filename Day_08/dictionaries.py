@@ -29,3 +29,6 @@ student["skills"].append("Budgeting")
 student["skills"].append("Taxation")
 student["skills"].append("Attention to Detail")
 print("Skills: ", student["skills"])
+# Getting the dictionary keys as a list
+keys_list = list(student.keys())
+print("Keys Lisy: ", keys_list)
