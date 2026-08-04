@@ -24,3 +24,8 @@ print("Length of Student Dictionary: ", len(student))
 # Getting the value of skills and check the data type
 print("Skills: ", student["skills"])
 print("Skills Data Type: ", type(student["skills"]))
+# Modifying the skills value by adding one or two skills
+student["skills"].append("Budgeting")
+student["skills"].append("Taxation")
+student["skills"].append("Attention to Detail")
+print("Skills: ", student["skills"])
