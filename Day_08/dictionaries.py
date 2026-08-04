@@ -21,3 +21,6 @@ student = {
 }
 # Getting the length of the last dictionary
 print("Length of Student Dictionary: ", len(student))
+# Getting the value of skills and check the data type
+print("Skills: ", student["skills"])
+print("Skills Data Type: ", type(student["skills"]))
