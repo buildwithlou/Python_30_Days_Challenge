@@ -1,3 +1,4 @@
+# Exercises - Day 08
 # Creating an empty dictionary called dog
 dog = {}
 # Adding items to the dictionary
