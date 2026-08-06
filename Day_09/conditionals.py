@@ -22,3 +22,12 @@ elif my_age < your_age:
         print("You are ", diff, " years older than me.")
 else:
     print("We are the same age.")
+# Getting and comparing two numbers using if, elif, else
+numberOne = int(input("Enter number one: "))
+numberTwo = int(input("Enter number two: "))
+if numberOne > numberTwo:
+    print(numberOne, " is greater than ", numberTwo)
+elif numberOne < numberTwo:
+    print(numberOne, " is less than ", numberTwo)
+else:
+    print(numberOne, " is equal to ", numberTwo)
