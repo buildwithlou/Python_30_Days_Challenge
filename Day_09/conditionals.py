@@ -31,3 +31,22 @@ elif numberOne < numberTwo:
     print(numberOne, " is less than ", numberTwo)
 else:
     print(numberOne, " is equal to ", numberTwo)
+# Putting grades according the grades
+# Get the score from user input
+score = float(input("Enter your score (0-100): "))
+
+# Validate score range and assign letter grade
+if score < 0 or score > 100:
+    print("Invalid score! Please enter a number between 0 and 100.")
+elif score >= 90:
+    grade = "A"
+elif score >= 80:
+    grade = "B"
+elif score >= 70:
+    grade = "C"
+elif score >= 60:
+    grade = "D"
+else:
+    grade = "F"
+if 0 <= score <= 100:
+    print(f"Your score is {score}, which earns a Grade: {grade}")
