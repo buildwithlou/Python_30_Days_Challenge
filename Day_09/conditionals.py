@@ -68,3 +68,14 @@ elif month in summer:
     print(f"{month} is in Summer.")
 else:
     print("Invalid month entered! Please check your spelling.")
+
+fruits = ["banana", "orange", "mango", "lemon"]
+
+# Getting the fruit list
+new_fruit = input("Enter a fruit name: ").strip().lower()
+
+if new_fruit in fruits:
+    print("That fruit already exist in the list")
+else:
+    fruits.append(new_fruit)
+    print("Modified list:", fruits)
