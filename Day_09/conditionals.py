@@ -51,3 +51,20 @@ else:
 if 0 <= score <= 100:
     print(f"Your score is {score}, which earns a Grade: {grade}")
 # Getting the month from user input then check if the season is Autumn, Winter, Spring or Summer. If the user input is invalid, give feedback: "Invalid month. Please enter a valid month."
+month = input("Enter a month: ").strip().capitalize()
+
+autumn = ["September", "October", "November"]
+winter = ["December", "January", "February"]
+spring = ["March", "April", "May"]
+summer = ["June", "July", "August"]
+
+if month in autumn:
+    print(f"{month} is in Autumn.")
+elif month in winter:
+    print(f"{month} is in Winter.")
+elif month in spring:
+    print(f"{month} is in Spring.")
+elif month in summer:
+    print(f"{month} is in Summer.")
+else:
+    print("Invalid month entered! Please check your spelling.")
