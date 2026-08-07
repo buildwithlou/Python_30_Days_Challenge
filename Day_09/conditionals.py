@@ -50,3 +50,4 @@ else:
     grade = "F"
 if 0 <= score <= 100:
     print(f"Your score is {score}, which earns a Grade: {grade}")
+# Getting the month from user input then check if the season is Autumn, Winter, Spring or Summer. If the user input is invalid, give feedback: "Invalid month. Please enter a valid month."
