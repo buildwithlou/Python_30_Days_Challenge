@@ -7,3 +7,6 @@ count = 0
 while count <= 10:
     print(count)
     count += 1
+# Loop that makes a triangle
+for i in range(1, 8):
+    print("x" * i)
