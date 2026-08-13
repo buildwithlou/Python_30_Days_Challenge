@@ -72,3 +72,16 @@ for key in person:
 for number in range(11):
     print(number)
 print("The loop stops at", number)
+person = {
+    "first_name": "Asabeneh",
+    "last_name": "Yetayeh",
+    "age": 250,
+    "country": "Finland",
+    "is_marred": True,
+    "skills": ["JavaScript", "React", "Node", "MongoDB", "Python"],
+    "address": {"street": "Space street", "zipcode": "02210"},
+}
+for key in person:
+    if key == "skills":
+        for skill in person["skills"]:
+            print(skill)
