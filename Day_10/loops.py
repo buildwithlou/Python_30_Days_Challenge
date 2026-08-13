@@ -10,3 +10,8 @@ while count <= 10:
 # Loop that makes a triangle
 for i in range(1, 8):
     print("x" * i)
+# Nested loop to make a figure
+for row in range(8):
+    for col in range(8):
+        print("#", end=" ")
+    print()
