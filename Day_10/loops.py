@@ -15,3 +15,6 @@ for row in range(8):
     for col in range(8):
         print("#", end=" ")
     print()
+# Multiplication table using nested loop
+for i in range(1, 11):
+    print(f"{i} x {i} = {i * i}")
