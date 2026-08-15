@@ -18,3 +18,7 @@ for row in range(8):
 # Multiplication table using nested loop
 for i in range(1, 11):
     print(f"{i} x {i} = {i * i}")
+# Iterate through the list
+frameworks = ["Numpy", "Pandas", "Django", "Flask"]
+for framework in frameworks:
+    print(framework)
