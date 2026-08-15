@@ -22,3 +22,7 @@ for i in range(1, 11):
 frameworks = ["Numpy", "Pandas", "Django", "Flask"]
 for framework in frameworks:
     print(framework)
+# Using for loop to iterate from 0 to 100 and even numbers only
+for i in range(101):
+    if i % 2 == 0:
+        print(i)
