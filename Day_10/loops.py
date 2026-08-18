@@ -27,6 +27,6 @@ for i in range(101):
     if i % 2 == 0:
         print(i)
 # Using for loop to iterate from 0 to 100 and odd numbers only
-# for i in range(101):
-#     if i % 2 != 0:
-#         print(i)
+for i in range(101):
+    if i % 2 != 0:
+        print(i)
