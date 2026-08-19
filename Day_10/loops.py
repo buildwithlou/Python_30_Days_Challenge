@@ -245,3 +245,7 @@ countries = [
 for country in countries:
     if "land" in country:
         print("Country cointaing land: ", country)
+# Using reverse the order using loop
+fruit_list = ["Banana", "Orange", "Mango", "Lemon"]
+for i in range(len(fruit_list) - 1, -1, -1):
+    print(fruit_list[i])
