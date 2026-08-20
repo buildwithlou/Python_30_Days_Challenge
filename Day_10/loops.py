@@ -2264,9 +2264,9 @@ countries_data = [
     },
 ]
 # Total number of languages in the data
-# total_languages = set()
-# for country in countries_data:
-#     for language in country["languages"]:
-#         total_languages.add(language)
+total_languages = set()
+for country in countries_data:
+    for language in country["languages"]:
+        total_languages.add(language)
 
-# print(len(total_languages))
+print(len(total_languages))
