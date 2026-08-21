@@ -1,4 +1,6 @@
 # Exercises - Day 10
+from collections import Counter
+
 # Iterate 0 to 10 using for loop
 for i in range(11):
     print(i)
