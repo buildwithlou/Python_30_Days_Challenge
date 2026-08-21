@@ -1,4 +1,5 @@
 # Exercises - Day 10
+# Imports
 from collections import Counter
 
 # Iterate 0 to 10 using for loop
@@ -2277,5 +2278,4 @@ print(len(total_languages))
 language_counts = Counter()
 for country in countries_data:
     language_counts.update(country["languages"])
-
 most_spoken_languages = language_counts.most_common(10)
