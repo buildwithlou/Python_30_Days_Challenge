@@ -2279,3 +2279,20 @@ language_counts = Counter()
 for country in countries_data:
     language_counts.update(country["languages"])
 most_spoken_languages = language_counts.most_common(10)
+
+print("--- 10 Most Spoken Languages ---")
+for lang, count in most_spoken_languages:
+    print(f"{lang}: {count} countries")
+
+# Finding the ten most populated countries in the world
+sorted_by_population = sorted(
+    countries_data, key=lambda x: x["population"], reverse=True
+)[:10]
+
+most_populated_countries = [
+    (country["name"], country["population"]) for country in sorted_by_population
+]
+
+print("\n--- 10 Most Populated Countries ---")
+for country, pop in most_populated_countries:
+    print(f"{country}: {pop:,}")
