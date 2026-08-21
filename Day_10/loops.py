@@ -2270,3 +2270,10 @@ for country in countries_data:
         total_languages.add(language)
 
 print(len(total_languages))
+
+# Finding the ten most spoken languages from the data
+language_counts = Counter()
+for country in countries_data:
+    language_counts.update(country["languages"])
+
+most_spoken_languages = language_counts.most_common(10)
