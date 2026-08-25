@@ -67,3 +67,14 @@ def weight_of_object(mass, gravity=9.81):
 
 print("Weight of an object in Newtons: ", weight_of_object(100))
 print("Weight of an object in Newtons: ", weight_of_object(100, 1.62))
+
+
+# Arbitrary number of arguments
+def sum_all_nums(*nums):
+    total = 0
+    for num in nums:
+        total += num
+    return total
+
+
+print(sum_all_nums(2, 3, 5))
