@@ -67,6 +67,7 @@ def weight_of_object(mass, gravity=9.81):
 
 print("Weight of an object in Newtons: ", weight_of_object(100))
 print("Weight of an object in Newtons: ", weight_of_object(100, 1.62))
+print("Weight of an object in Newtons: ", weight_of_object(100, 2.62))
 
 
 # Arbitrary number of arguments
