@@ -78,3 +78,13 @@ def sum_all_nums(*nums):
 
 
 print(sum_all_nums(2, 3, 5))
+
+
+# Dictionary unpacking
+def greet(name, location):
+    print("Hi there", name, ", How is the weather in", location, "?")
+
+
+# greet(name="Lourdes", location="Peru")
+my_dict = {"name": "Lourdes", "location": "Peru"}
+greet(**my_dict)  # Using ** to call the dictionary unpacking
