@@ -57,3 +57,13 @@ def find_even_numbers(n):
 
 
 print(find_even_numbers(10))
+
+
+# Default Parameters
+def weight_of_object(mass, gravity=9.81):
+    weight = str(mass * gravity) + "N"
+    return weight
+
+
+print("Weight of an object in Newtons: ", weight_of_object(100))
+print("Weight of an object in Newtons: ", weight_of_object(100, 1.62))
