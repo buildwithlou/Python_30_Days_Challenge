@@ -5,7 +5,6 @@ def add_two_numbers(num1, num2):
 
 
 print("Taking two parameters and returning the sum: ", add_two_numbers(5, 10))
-
 print(50 * "#")
 
 
@@ -16,3 +15,5 @@ def circle_area(radius, pi=3.14):
 
 print("Calculating the area of a circle: ", circle_area(5))
 print(50 * "#")
+
+def add_all_nums()
