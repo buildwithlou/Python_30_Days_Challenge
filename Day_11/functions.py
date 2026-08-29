@@ -13,5 +13,5 @@ def circle_area(radius, pi=3.14):
     return area
 
 
-print("Calculating the area of a circle: ", circle_area(5))
-print(50 * "#")
+# print("Calculating the area of a circle: ", circle_area(5))
+# print(50 * "#")
