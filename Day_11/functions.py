@@ -84,3 +84,5 @@ def solve_quadratic_eqn(a, b, c):
 
 print("Solving a quadratic equation: ", solve_quadratic_eqn(1, -3, 2))
 print(50 * "#")
+
+def print_list()
