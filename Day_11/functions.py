@@ -15,3 +15,5 @@ def circle_area(radius, pi=3.14):
 
 print("Calculating the area of a circle: ", circle_area(5))
 print(50 * "#")
+
+def called_all_nums(*args):
