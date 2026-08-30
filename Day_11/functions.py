@@ -64,3 +64,6 @@ def calculate_slope(x1, y1, x2, y2):
 
 print("Returning the slope: ", calculate_slope(1, 2, 3, 6))
 print(50 * "#")
+
+def solve_quadratic_eqn(a,b,c):
+    
