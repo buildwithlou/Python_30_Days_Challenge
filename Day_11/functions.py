@@ -65,5 +65,22 @@ def calculate_slope(x1, y1, x2, y2):
 print("Returning the slope: ", calculate_slope(1, 2, 3, 6))
 print(50 * "#")
 
-def solve_quadratic_eqn(a,b,c):
-    
+
+def solve_quadratic_eqn(a, b, c):
+    # Quadratic Formula: ax^2 + bx + c = 0
+    if a == 0:
+        return "a cannot be 0"
+    # Finding the discriminant: b^2 - 4ac
+    d = b**2 - 4 * a * c
+    if d >= 0:
+        x1 = (-b + d**0.5) / (2 * a)
+        x2 = (-b - d**0.5) / (2 * a)
+        return (x1,) if x1 == x2 else (x1, x2)
+    else:
+        real = -b / (2 * a)
+        imag = (-d) ** 0.5 / (2 * a)
+        return (complex(real, imag), complex(real, -imag))
+
+
+print("Solving a quadratic equation: ", solve_quadratic_eqn(1, -3, 2))
+print(50 * "#")
