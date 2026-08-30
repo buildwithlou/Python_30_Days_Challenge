@@ -36,7 +36,20 @@ def convert_celsius_to_fahrenheit(c):
 print("Converting temperature: ", convert_celsius_to_fahrenheit(3))
 print(50 * "#")
 
-def check_season(month):
-    
-print(50 * "#")
 
+def check_season(month):
+    month = month.capitalize()
+    if month in ("September", "October", "November"):
+        return "Autumn"
+    if month in ("December", "January", "February"):
+        return "Winter"
+    if month in ("March", "April", "May"):
+        return "Spring"
+    if month in ("June", "July", "August"):
+        return "Summer"
+    else:
+        return "Invalid month name"
+
+
+print("Season depending of the month: ", check_season("june"))
+print(50 * "#")
