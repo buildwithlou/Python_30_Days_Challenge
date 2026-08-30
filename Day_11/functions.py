@@ -26,3 +26,12 @@ def called_all_nums(*args):
 
 print("Calculating the sum of the next arguments: ", called_all_nums("r", 3, 5))
 print(50 * "#")
+
+
+def convert_celsius_to_fahrenheit(c):
+    f = (c * 9 / 5) + 32
+    return f
+
+
+print("Converting temperature: ", convert_celsius_to_fahrenheit(3))
+print(50 * "#")
