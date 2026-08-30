@@ -53,3 +53,14 @@ def check_season(month):
 
 print("Season depending of the month: ", check_season("june"))
 print(50 * "#")
+
+
+def calculate_slope(x1, y1, x2, y2):
+    if x1 == x2:
+        return "Slope is undefined (vertical line)"
+    slope = (y2 - y1) / (x2 - x1)
+    return slope
+
+
+print("Returning the slope: ", calculate_slope(1, 2, 3, 6))
+print(50 * "#")
