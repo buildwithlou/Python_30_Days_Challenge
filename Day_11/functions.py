@@ -85,4 +85,17 @@ def solve_quadratic_eqn(a, b, c):
 print("Solving a quadratic equation: ", solve_quadratic_eqn(1, -3, 2))
 print(50 * "#")
 
-def print_list()
+
+def print_list(lst):
+    for item in lst:
+        print(item)
+
+
+wishlist = [
+    "dyson airwarp",
+    "pink brushes",
+    "a dachshund puppy",
+    "a new entretainment center",
+    "kindle",
+]
+print_list(wishlist)
