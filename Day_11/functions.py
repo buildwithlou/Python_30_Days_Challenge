@@ -16,4 +16,13 @@ def circle_area(radius, pi=3.14):
 print("Calculating the area of a circle: ", circle_area(5))
 print(50 * "#")
 
+
 def called_all_nums(*args):
+    for arg in args:
+        if type(arg) not in (int, float):
+            return f"Error: '{arg}' is not a valid number."
+    return sum(args)
+
+
+print("Calculating the sum of the next arguments: ", called_all_nums("r", 3, 5))
+print(50 * "#")
