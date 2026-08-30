@@ -35,3 +35,8 @@ def convert_celsius_to_fahrenheit(c):
 
 print("Converting temperature: ", convert_celsius_to_fahrenheit(3))
 print(50 * "#")
+
+def check_season(month):
+    
+print(50 * "#")
+
