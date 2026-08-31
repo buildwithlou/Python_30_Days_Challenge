@@ -113,3 +113,19 @@ def reverse_list(arr):
 print("Printing reverse of the array: ", reverse_list([1, 2, 3, 4, 5]))
 print("Printing reverse of the array:: ", reverse_list(["A", "B", "C"]))
 print(50 * "#")
+
+
+def capitalize_list_items(lst):
+    capitalize_lst = []
+    for item in lst:
+        capitalize_lst.append(item.capitalize())
+    return capitalize_lst
+
+
+print(
+    "Printing capitalize list items: ",
+    capitalize_list_items(
+        ["miu miu", "prada", "Dior", "Loewe", "Lululemon", "Loro Piana"]
+    ),
+)
+print(50 * "#")
