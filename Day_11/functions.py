@@ -130,7 +130,12 @@ print(
 )
 print(50 * "#")
 
+
 def add_item(lst, param):
-    new_list = []
-    for 
-      
+    lst.append(param)
+    return lst
+
+
+food_stuff = ["Potato", "Tomato", "Mango", "Milk"]
+print("New list adding the parameter: ", add_item(food_stuff, "Meat"))
+print(50 * "#")
