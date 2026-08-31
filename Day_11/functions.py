@@ -129,3 +129,8 @@ print(
     ),
 )
 print(50 * "#")
+
+def add_item(lst, param):
+    new_list = []
+    for 
+      
