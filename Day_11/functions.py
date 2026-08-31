@@ -100,3 +100,16 @@ wishlist = [
 ]
 print_list(wishlist)
 print(50 * "#")
+
+
+def reverse_list(arr):
+    reversed_arr = []
+    for i in range(len(arr) - 1, -1, -1):
+        # range(start, stop, step)
+        reversed_arr.append(arr[i])
+    return reversed_arr
+
+
+print("Printing reverse of the array: ", reverse_list([1, 2, 3, 4, 5]))
+print("Printing reverse of the array:: ", reverse_list(["A", "B", "C"]))
+print(50 * "#")
