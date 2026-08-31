@@ -99,3 +99,4 @@ wishlist = [
     "kindle",
 ]
 print_list(wishlist)
+print(50 * "#")
