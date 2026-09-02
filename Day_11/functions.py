@@ -186,3 +186,20 @@ def sum_of_even(num):
 
 print("Printing the sum of evens: ", sum_of_even(5))
 print(50 * "#")
+
+
+def evens_and_odds(param):
+    evens = 0
+    odds = 0
+    for i in range(param + 1):
+        if i % 2 == 0:
+            evens += 1
+        else:
+            odds += 1
+
+    print(f"The number of odds are {evens}")
+    print(f"The number of evens are {odds}")
+
+
+evens_and_odds(100)
+print(50 * "#")
