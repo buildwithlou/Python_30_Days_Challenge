@@ -203,3 +203,13 @@ def evens_and_odds(param):
 
 evens_and_odds(100)
 print(50 * "#")
+
+
+def factorial(num):
+    if num <= 1:
+        return 1
+    return num * factorial(num - 1)
+
+
+print("Printing the factorial ", factorial(5))
+print(50 * "#")
