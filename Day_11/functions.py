@@ -174,3 +174,15 @@ def sum_of_odds(num):
 
 
 print("Printing the sum of odds: ", sum_of_odds(5))
+print(50 * "#")
+
+
+def sum_of_even(num):
+    total = 0
+    for i in range(2, num + 1, 2):
+        total += i
+    return total
+
+
+print("Printing the sum of evens: ", sum_of_even(5))
+print(50 * "#")
