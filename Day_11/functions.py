@@ -140,4 +140,7 @@ food_stuff = ["Potato", "Tomato", "Mango", "Milk"]
 print("New list adding the parameter: ", add_item(food_stuff, "Meat"))
 print(50 * "#")
 
-def remove_item
+
+def remove_item(lst, param):
+    lst.remove(param)
+    return lst
