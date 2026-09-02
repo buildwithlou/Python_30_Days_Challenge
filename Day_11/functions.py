@@ -164,3 +164,13 @@ print(sum_of_numbers(5))  # 15
 print(sum_of_numbers(10))  # 55
 print(sum_of_numbers(100))  # 5050
 print(50 * "#")
+
+
+def sum_of_odds(num):
+    total = 0
+    for i in range(1, num + 1, 2):
+        total += i
+    return total
+
+
+print("Printing the sum of odds: ", sum_of_odds(5))
