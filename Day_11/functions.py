@@ -213,3 +213,6 @@ def factorial(num):
 
 print("Printing the factorial ", factorial(5))
 print(50 * "#")
+
+def is_empty(param):
+    
