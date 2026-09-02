@@ -139,3 +139,5 @@ def add_item(lst, param):
 food_stuff = ["Potato", "Tomato", "Mango", "Milk"]
 print("New list adding the parameter: ", add_item(food_stuff, "Meat"))
 print(50 * "#")
+
+def remove_item
