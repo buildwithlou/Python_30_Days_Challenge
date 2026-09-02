@@ -152,4 +152,15 @@ numbers = [2, 3, 7, 9]
 print(remove_item(numbers, 3))  # [2, 7, 9]
 print(50 * "#")
 
-def sum_of_numbers()
+
+def sum_of_numbers(num):
+    total = 0
+    for i in range(1, num + 1):
+        total += i
+    return total
+
+
+print(sum_of_numbers(5))  # 15
+print(sum_of_numbers(10))  # 55
+print(sum_of_numbers(100))  # 5050
+print(50 * "#")
