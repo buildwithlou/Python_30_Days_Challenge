@@ -151,3 +151,5 @@ print(remove_item(food_stuff, "Mango"))  # ['Potato', 'Tomato', 'Milk'];
 numbers = [2, 3, 7, 9]
 print(remove_item(numbers, 3))  # [2, 7, 9]
 print(50 * "#")
+
+def sum_of_numbers()
