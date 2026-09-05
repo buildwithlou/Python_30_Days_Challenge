@@ -221,5 +221,6 @@ def is_empty(param):
 
 print("The param is:", is_empty(""))
 
+
 def calculate_mean(lst):
-    
+    return sum(lst) / len(lst)
