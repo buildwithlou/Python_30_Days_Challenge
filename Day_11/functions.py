@@ -224,3 +224,19 @@ print("The param is:", is_empty(""))
 
 def calculate_mean(lst):
     return sum(lst) / len(lst)
+
+
+def calculate_median(lst):
+    nums = sorted(lst)
+    n = len(nums)
+
+    if n % 2 == 1:
+        return nums[n // 2]
+    else:
+        middle1 = nums[n // 2 - 1]
+        middle2 = nums[n // 2]
+        return (middle1 + middle2) / 2
+
+
+print("Calculating mean", calculate_mean([10, 20, 30, 40, 50]))
+print("Calculating mean", calculate_median([20, 10, 30, 40, 50, 60]))
