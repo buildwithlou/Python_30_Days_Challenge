@@ -237,7 +237,8 @@ def calculate_median(lst):
         middle2 = nums[n // 2]
         return (middle1 + middle2) / 2
 
-def calculate_mode(lst):
+
+# def calculate_mode(lst):
 
 
 print("Calculating mean", calculate_mean([10, 20, 30, 40, 50]))
