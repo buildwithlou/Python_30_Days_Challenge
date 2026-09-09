@@ -238,7 +238,15 @@ def calculate_median(lst):
         return (middle1 + middle2) / 2
 
 
-def calculate_mode(lst):
+def calculate_mode(numbers):
+    if not numbers:
+        return
+    counts = {}
+    for item in numbers:
+        counts[item] = counts.get(item, 0) + 1
+    max_count = max(counts.values())
+    modes = [item for item, count in counts.items() if count == max_count]
+    return modes[0] if len(modes) == 1 else modes
 
 
 print("Calculating mean", calculate_mean([10, 20, 30, 40, 50]))
