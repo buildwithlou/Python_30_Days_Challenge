@@ -240,5 +240,5 @@ def calculate_median(lst):
 def calculate_mode(lst):
 
 
-# print("Calculating mean", calculate_mean([10, 20, 30, 40, 50]))
-# print("Calculating mean", calculate_median([20, 10, 30, 40, 50, 60]))
+print("Calculating mean", calculate_mean([10, 20, 30, 40, 50]))
+print("Calculating mean", calculate_median([20, 10, 30, 40, 50, 60]))
