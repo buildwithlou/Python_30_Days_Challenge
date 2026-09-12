@@ -220,6 +220,7 @@ def is_empty(param):
 
 
 print("The param is:", is_empty(""))
+print(50 * "#")
 
 
 def calculate_mean(lst):
@@ -279,3 +280,13 @@ print(
     "Calculating Simple Variance", calculate_variance([10, 12, 23, 23, 16, 23, 21, 16])
 )
 print("Calculating Std Dev", calculate_std([10, 12, 23, 23, 16, 23, 21, 16]))
+print(50 * "#")
+
+
+def greet(name="Guest"):
+    print(f"Hello, {name}")
+
+
+greet()
+greet("Willy")
+print(50 * "#")
