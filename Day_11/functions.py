@@ -247,8 +247,3 @@ def calculate_mode(numbers):
     max_count = max(counts.values())
     modes = [item for item, count in counts.items() if count == max_count]
     return modes[0] if len(modes) == 1 else modes
-
-
-# print("Calculating mean", calculate_mean([10, 20, 30, 40, 50]))
-# print("Calculating median", calculate_median([20, 10, 30, 40, 50, 60]))
-# print("Calculating mode", calculate_mode([1, 2, 2, 3, 4]))
