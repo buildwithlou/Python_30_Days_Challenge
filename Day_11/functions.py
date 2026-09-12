@@ -290,3 +290,5 @@ def greet(name="Guest"):
 greet()
 greet("Willy")
 print(50 * "#")
+
+def show_args(**kwargs):
