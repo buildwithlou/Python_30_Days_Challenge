@@ -258,3 +258,4 @@ def calculate_range(numbers):
 print("Calculating mean", calculate_mean([10, 20, 30, 40, 50]))
 print("Calculating median", calculate_median([20, 10, 30, 40, 50, 60]))
 print("Calculating mode", calculate_mode([1, 2, 2, 3, 4]))
+print("Calculating range", calculate_range([10, 12, 23, 23, 16, 23, 21, 16]))
