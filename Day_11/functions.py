@@ -255,7 +255,20 @@ def calculate_range(numbers):
     return max(numbers) - min(numbers)
 
 
+def calculate_variance(numbers, sample=True):
+    if len(numbers) < 2:
+        return 0.0
+    mean = sum(numbers) / len(numbers)
+    squared_diff = sum((x - mean) ** 2 for x in numbers)
+
+    divisor = len(numbers) - 1 if sample else len(numbers)
+    return squared_diff / divisor
+
+
 print("Calculating mean", calculate_mean([10, 20, 30, 40, 50]))
 print("Calculating median", calculate_median([20, 10, 30, 40, 50, 60]))
 print("Calculating mode", calculate_mode([1, 2, 2, 3, 4]))
 print("Calculating range", calculate_range([10, 12, 23, 23, 16, 23, 21, 16]))
+print(
+    "Calculating Simple Variance", calculate_variance([10, 12, 23, 23, 16, 23, 21, 16])
+)
