@@ -291,4 +291,14 @@ greet()
 greet("Willy")
 print(50 * "#")
 
-# def show_args(**kwargs):
+
+def show_args(**kwargs):
+    formatted_args = [f"{key}: {value}" for key, value in kwargs.items()]
+    output = ", ".join(formatted_args)
+    print(f"Received: {output}")
+
+
+show_args(name="Alice", age=30, city="New York")
+# Received: name: Alice, age: 30, city: New York
+show_args(name="Bob", pet="Fluffy, the bunny")
+# Received: name: Bob, pet: Fluffy, the bunny
