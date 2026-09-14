@@ -319,3 +319,11 @@ print(is_prime(11))
 print(is_prime(4))
 print(is_prime(1))
 print(50 * "#")
+
+
+def unique_list(n):
+    return len(n) == len(set(n))
+
+
+print(unique_list([1, 2, 3, 4, 5]))
+print(unique_list([1, 2, 3, 4, 4]))
