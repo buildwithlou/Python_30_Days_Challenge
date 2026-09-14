@@ -302,3 +302,20 @@ show_args(name="Alice", age=30, city="New York")
 # Received: name: Alice, age: 30, city: New York
 show_args(name="Bob", pet="Fluffy, the bunny")
 # Received: name: Bob, pet: Fluffy, the bunny
+print(50 * "#")
+
+
+def is_prime(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+
+print(is_prime(2))
+print(is_prime(11))
+print(is_prime(4))
+print(is_prime(1))
+print(50 * "#")
