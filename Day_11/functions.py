@@ -334,5 +334,5 @@ def data_type(n):
     return type(n) == type(set(n))
 
 
-print(data_type([1, 2, 3, 4, 5]))
-print(50 * "#")
+# print(data_type([1, 2, 3, 4, 5]))
+# print(50 * "#")
