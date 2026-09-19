@@ -336,3 +336,53 @@ def data_type(n):
 
 print(data_type([1, 2, 3, 4, 5]))
 print(50 * "#")
+
+
+def valid_variable(var):
+    if not isinstance(var, str):
+        return False
+    keywords = {
+        "False",
+        "None",
+        "True",
+        "and",
+        "as",
+        "assert",
+        "async",
+        "await",
+        "break",
+        "class",
+        "continue",
+        "def",
+        "del",
+        "elif",
+        "else",
+        "except",
+        "finally",
+        "for",
+        "from",
+        "global",
+        "if",
+        "import",
+        "in",
+        "is",
+        "lambda",
+        "nonlocal",
+        "not",
+        "or",
+        "pass",
+        "raise",
+        "return",
+        "try",
+        "while",
+        "with",
+        "yield",
+    }
+
+    return var.isidentifier() and var not in keywords
+
+
+print(valid_variable("my_var"))
+print(valid_variable("_private"))
+print(valid_variable("2var"))
+print(valid_variable("var-name"))
