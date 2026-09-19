@@ -385,4 +385,3 @@ def valid_variable(var):
 print(valid_variable("my_var"))
 print(valid_variable("_private"))
 print(valid_variable("2var"))
-print(valid_variable("var-name"))
